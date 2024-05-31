@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ecbf5480a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login-styles.css">
+    <title>Laura's Login UI</title>
+</head>
+<body>
+    <div class="login-card">
+        <div class="logo"><a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a></div> 
+        
+        <!-- USERNAME & PASSWORD LOGIN -->
+        <form action="">
+            <h2>Welcome Back</h2>
+            <h6>Sign in to continue.</h6>
+            <label for="username">Username</label>
+            <i class="fa-solid fa-user"></i>
+            <div class="input-div">
+                <input type="text" id="username" placeholder="Enter your username*" required></input>
+            </div>
+
+            <label for="password">Password</label>
+            <i class="fa-solid fa-lock"></i>
+            <div class="input-div">
+                <input type="password" id="password" placeholder="Enter your password*" required></input>
+            </div>
+
+            <div class="forgot-password">
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <!-- LOGIN BUTTON -->
+            <div class="input-div">
+                <button type="submit" onclick="validate()">Sign in</button>
+            </div>
+
+            <hr>
+            <!-- SIGN UP -->
+            <p>Need an account? <a href="#">Register</a></p>
+        </form>
+    </div>
+
+</body>
+</html>
